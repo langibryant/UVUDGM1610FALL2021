@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PC : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float speed = 50.0f;
     public float turnSpeed;
@@ -10,8 +10,6 @@ public class PC : MonoBehaviour
     public float hInput;
 
     public float vInput;
-
-    // Start is called before the first frame update
     void Start()
     {
         turnSpeed = 100.0f;

@@ -427,6 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tank: {fileID: 1783825740}
+  offset: {x: 0, y: 100, z: -150}
 --- !u!1 &1069569434
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +607,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1783825746
+--- !u!114 &1783825743
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -615,10 +616,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1783825740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0c6b9185136951489799c9ea7fe5d11, type: 3}
+  m_Script: {fileID: 11500000, guid: 4509ba3f8d5f13147890f6a153e2a3c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 50
   turnSpeed: 0
   hInput: 0
   vInput: 0
